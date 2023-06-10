@@ -9,13 +9,15 @@ No data augmentation in terms of random rotation or flipping is applied.
 
 ## Challenges and the solutions
 
-### Steps for installation and 
+## The installation and how to run the project 
+
+### Steps for installation
 1. To download a folder from GitHub, locate your Repository directory from the home page.
 2. From here, locate the specific Repository you would like to download.
 3. Next, click on the green button marked "Code"
 4. From the drop-down that appears, click "Download ZIP" to download the entire repository as a ZIP folder.
 
-### steps to run the project 
+### Steps to run the project 
 
 ## Output of your project
 
