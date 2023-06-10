@@ -7,11 +7,16 @@ The dataset is generated from 458 high-resolution images (4032x3024 pixel) with 
 High-resolution images have variance in terms of surface finish and illumination conditions. 
 No data augmentation in terms of random rotation or flipping is applied. 
 
-ii.	Any challenges you face and how you solve them?
-iii.	Some challenges / features you hope to implement?
-## How to install and run the project (VERY IMPORTANT, HIGH MARKS)
-i.	Think from the shoes of new user
-ii.	After they download/git clone your project, what should they do in order to run your project? 
+## Challenges and the solutions
+
+### Steps for installation and 
+1. To download a folder from GitHub, locate your Repository directory from the home page.
+2. From here, locate the specific Repository you would like to download.
+3. Next, click on the green button marked "Code"
+4. From the drop-down that appears, click "Download ZIP" to download the entire repository as a ZIP folder.
+
+### steps to run the project 
+
 ## Output of your project
 
 ## Credits
