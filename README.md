@@ -8,6 +8,20 @@ High-resolution images have variance in terms of surface finish and illumination
 No data augmentation in terms of random rotation or flipping is applied. 
 
 ## Challenges and the solutions
+1) If you utilise Google CoLab, it will take a long time to transfer the dataset into Google Dive because the dataset are so big.
+2) The other way from upload the file into goggle colab if you are google colab user without waiting a long time to upload into google drive.
+   Make a folder using the Google Colab's left size. After creating a folder, run the following code:-
+   
+       a) !wget https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/5y9wdsg2zt-2.zip
+       
+       b) !mkdir dataset
+       
+       c) !unzip "5y9wdsg2zt-2.zip" 
+       
+       d) !unrar -e "Concrete Crack Images for Classification.rar" 
+       
+4) The other way from google colab you also can use visual studio code and upload the file into your own pc, it will not take a long time to unzip and upload the file.
+5) The first training and the last training will both take a considerable amount of time, thus I advise Google Colab users to switch the hardware accelerator to a GPU with a TPU GPU type. They should also adjust the epoch to a small number.
 
 ## The installation and how to run the project 
 
@@ -46,8 +60,11 @@ Here are the steps to compile and run a GitHub project:
 3) Install dependencies: If the project requires any external libraries, install them using the package manager specified in the project's documentation (e.g., pip, npm, etc.).
 4) Compile the project: Depending on the language and framework used, compile the project using a build tool (e.g., make, gradle, etc.) or by executing a script provided in the project files.
 5) Run the project: Execute the compiled binary or run the script to launch the project.
+
+## Output of the project
+##### Training process using Tensorboard
   
-## Output of your project
+![Training process plotted using Tensorboard](https://github.com/firasamirah/YPAI03-Assessment3/assets/91971387/daaefb57-e698-4fd2-ae42-b6df80b6f5bb)
 
 ## Credits
 https://data.mendeley.com/datasets/5y9wdsg2zt/2
